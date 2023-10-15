@@ -51,7 +51,7 @@ const CartModel = () => {
 </>
 
         <Grid style={{display:'flex' ,justifyContent:'space-around'}}>
-        <CustomTypograpy variant="h3" children={`Total Price : ${totalprice}`} />
+        <CustomTypograpy variant="h5" children={`Total Price : ${totalprice}`} />
         <CustomButton startIcon={<InventoryTwoToneIcon/>} children={"buy"} size={'large'} style={{background:'green',color:'black'}} onClick={()=>alert("Buyed Succesfuuly")} />
   
         </Grid>
