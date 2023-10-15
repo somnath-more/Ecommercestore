@@ -1,0 +1,51 @@
+{
+  "carts": [
+    {
+      "id": 1,
+      "product": "Laptop",
+      "price": 99
+    },
+    {
+      "product": "Running Shoes",
+      "price": 79.99,
+      "id": 2
+    }
+  ],
+  "stores": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "description": "High-performance laptop with a quad-core processor.",
+      "price": 899.99,
+      "category": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "description": "Latest smartphone with a stunning display and dual cameras.",
+      "price": 699,
+      "category": "Electronics"
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "description": "Comfortable running shoes with excellent arch support.",
+      "price": 79.99,
+      "category": "Sports & Outdoors"
+    },
+    {
+      "id": 4,
+      "name": "Coffee Maker",
+      "description": "Programmable coffee maker with a built-in grinder.",
+      "price": 129.95,
+      "category": "Kitchen Appliances"
+    },
+    {
+      "id": 5,
+      "name": "Hardcover Book",
+      "description": "Best-selling novel by a renowned author.",
+      "price": 24.99,
+      "category": "Books"
+    }
+  ]
+}
