@@ -18,8 +18,9 @@ const handleStyle = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 400,
-  bgcolor: 'lightgreen',
+  width: "450px",
+  height:'450px',
+  background:"pink"
 }
 const Product = () => {
   const [filterData, setFilterData] = useState([]);
@@ -72,10 +73,9 @@ const Product = () => {
 
       </Grid>
       {
+        filterData ?(
         filterData
-        .filter((data: any) => (data.name.toLowerCase().includes(search.trim().toLowerCase())) ||(data.price.toString().includes(search.trim().toLowerCase()))
-        )
-     
+          .filter((data: {name:string,price:number}) => data.name?.toLowerCase().includes(search.trim().toLowerCase()) || data.price?.toString().includes(search))
           .map((data: any) => (
             <Stack spacing={3} style={{ background: 'pink', marginTop: '15px', width: '850px', boxShadow: '20p', border: '2px solid red' }}>
               <CustomTypograpy variant="body1" children={data.name} />
@@ -86,7 +86,11 @@ const Product = () => {
             </Stack>
 
           ))
-      }
+    
+      ):(
+        <div>Data is Loading or Not Found</div>
+      )
+    }
       <Stack spacing={4}>
 
       </Stack>

@@ -14,6 +14,11 @@
       "name": "Laptop",
       "price": 899.99,
       "id": 3
+    },
+    {
+      "name": "Laptop",
+      "price": 899.99,
+      "id": 4
     }
   ],
   "stores": [
