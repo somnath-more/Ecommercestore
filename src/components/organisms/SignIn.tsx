@@ -61,7 +61,7 @@ email === "" || password === "" || passworderror || emailerror ? "lightgrey" : "
         <CustomTypograpy variant="body2" children={"Email"}/>
         <CustomTextField value={email} type="email" helperText={<CustomTypograpy style={{color:'red'}} children={emailerror}/> } placeholder="joh@gmail.com" onChange={handleEmailChange}/>
        
-        <CustomTypograpy variant="h4" children={"Password"}/>
+        <CustomTypograpy variant="body2" children={"Password"}/>
         <CustomTextField value={password} type="password" helperText={<CustomTypograpy style={{color:'red'}} children={passworderror}/>} placeholder="**********" onChange={handlePasswordChange}/>
        
         <Grid style={{display:"flex",alignItems:"center",justifyContent:"space-between"}}>
