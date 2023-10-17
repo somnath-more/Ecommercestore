@@ -19,6 +19,36 @@
       "name": "Laptop",
       "price": 899.99,
       "id": 4
+    },
+    {
+      "product": "Laptop",
+      "price": 899.99,
+      "id": 5
+    },
+    {
+      "product": "Running Shoes",
+      "price": 79.99,
+      "id": 6
+    },
+    {
+      "product": "Coffee Maker",
+      "price": 129.95,
+      "id": 7
+    },
+    {
+      "product": "Hardcover Book",
+      "price": 24.99,
+      "id": 8
+    },
+    {
+      "product": "Laptop",
+      "price": 899.99,
+      "id": 9
+    },
+    {
+      "product": "Laptop",
+      "price": 899.99,
+      "id": 10
     }
   ],
   "stores": [
