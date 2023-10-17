@@ -47,7 +47,9 @@ const SignIn = () => {
         setPassword(passwordValue)
         validatePassword(passwordValue)
 }
-
+const handleLogin=()=>{
+    console.log("Login Succes")
+}
 const buttonColor =
 email === "" || password === "" || passworderror || emailerror ? "lightgrey" : "blue";
   return (
@@ -69,7 +71,7 @@ email === "" || password === "" || passworderror || emailerror ? "lightgrey" : "
             </Grid>
             <CustomTypograpy variant='body2' children={"Forgot Password?"} style={{color:'violet'}}/>
         </Grid>
-         <CustomButton variant="contained" size="large" children={"Sign In"} style={{background:buttonColor}}/>
+         <CustomButton variant="contained" onClick={handleLogin} size="large" children={"Sign In"} style={{background:buttonColor}}/>
         
         <Divider children={"or"}></Divider>
 
