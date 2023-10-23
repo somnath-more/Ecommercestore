@@ -11,14 +11,13 @@ import Modal from '@mui/material/Modal';
 import { fetchStoreData, storeToCart } from '../../services'
 const OuterGrid = styled(Paper)({
   height: "99vh",
-
   background: 'lightgreen'
 })
 const handleStyle = {
-  position: 'absolute' as 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
+  // position: 'absolute' as 'absolute',
+  // top: '50%',
+  // left: '50%',
+  // transform: 'translate(-50%, -50%)',
 }
 const Product = () => {
   const [filterData, setFilterData] = useState([]);

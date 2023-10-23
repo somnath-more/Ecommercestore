@@ -1,6 +1,5 @@
 import styled from '@emotion/styled';
-import { Box, Grid, Modal, Paper, Stack } from '@mui/material'
-import axios from 'axios';
+import { Grid,Paper } from '@mui/material'
 import React, { useEffect, useState } from 'react'
 
 import InventoryTwoToneIcon from '@mui/icons-material/InventoryTwoTone';
@@ -10,7 +9,11 @@ import CustomButton from '../../atoms/button';
 
 const OuterGrid=styled(Paper)({
          height:'auto',
-         width:'850px'
+         width:'850px',
+         position: 'absolute' as 'absolute',
+         top: '50%',
+         left: '50%',
+         transform: 'translate(-50%, -50%)',
 })
 
 const CartModel = () => {

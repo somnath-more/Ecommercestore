@@ -49,6 +49,11 @@
       "product": "Laptop",
       "price": 899.99,
       "id": 10
+    },
+    {
+      "product": "Laptop",
+      "price": 899.99,
+      "id": 11
     }
   ],
   "stores": [
@@ -86,12 +91,6 @@
       "description": "Best-selling novel by a renowned author.",
       "price": 24.99,
       "category": "Books"
-    },
-    {
-      "id": 6
-    },
-    {
-      "id": 7
     }
   ]
 }
